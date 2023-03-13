@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{362F131E-2363-4844-8968-438758ADB4B2}" SchemaVersion="110" RootDocumentID="{745B62B6-20A1-4BB3-B2D2-1F25249A4877}" ParentDocumentID="{745B62B6-20A1-4BB3-B2D2-1F25249A4877}">
+	<AudioObjects>
+		<WorkUnit Name="SantiagoFdez" ID="{362F131E-2363-4844-8968-438758ADB4B2}" OwnerID="{745B62B6-20A1-4BB3-B2D2-1F25249A4877}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="METLImpt_METAL DOOR IMPACT_SFERNANDEZ_LIB SAE" ID="{30D51E05-FEE2-471D-9D5E-F759800B33FF}" ShortID="914766423">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7316D9B1-0A3E-44D0-8227-384348A87F54}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0B00E689-0DCF-43CB-AFDC-0E0BB475187F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="METLImpt_METAL DOOR IMPACT_SFERNANDEZ_LIB SAE" ID="{A1C5F7F9-EC49-4AC3-B2DD-ED6B488E7CD9}">
+							<Language>SFX</Language>
+							<AudioFile>METLImpt_METAL DOOR IMPACT_SFERNANDEZ_LIB SAE.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="91896128"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="METLImpt_METAL DOOR IMPACT_SFERNANDEZ_LIB SAE" ID="{A1C5F7F9-EC49-4AC3-B2DD-ED6B488E7CD9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
